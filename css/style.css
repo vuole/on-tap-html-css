@@ -1,0 +1,149 @@
+body{
+    font-family: Tahoma;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header ul .active{
+    background: blue;
+}
+
+#header ul li{
+    float: left;
+    display: block;
+    border-right: 1px solid #ccc;
+}
+
+#header ul li:hover{
+    background: blue;
+}
+
+#header ul li a{
+    padding: 0px 20px;
+    color: white;
+    line-height: 40px;
+}
+
+body #header{
+    height: 40px;
+    background: black;
+}
+
+body #banner{
+    height: 400px;
+    /* background: red; */
+    position: relative;
+}
+
+#banner .slider{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: fill; /*mac dinh*/
+}
+
+#banner #next{
+    position: absolute;
+    right: 20px;
+    top: 172px;
+}
+
+#banner #prev{
+    position: absolute;
+    left: 20px;
+    top: 128px;
+}
+
+#main #left{
+    width: 700px;
+    min-height: 500px;
+    /* background: blue; */
+    float: left;
+
+}
+
+#main #left ul li img{
+    float: left;
+    margin-right: 10px;
+}
+
+#main #left ul li h4{
+    margin-top: -3px;
+}
+
+#main #left ul li{
+    clear: left;
+    border-bottom: 1px solid #ccc;
+    padding: 16px 0px 35px 0px;
+    margin-right: 64px;
+}
+
+#main #right{
+    width: 300px;
+    min-height: 500px;
+    /* background: yellow; */
+    float: left;
+}
+
+#main #right #menu{
+    margin-top: -6px;
+}
+
+#main #right #menu h4{
+    background: rgb(42, 32, 110);
+    color: white;
+    height: 40px;
+    line-height: 40px;
+}
+
+#main #right #menu h4 i{
+    margin-left: 20px;
+}
+
+#main #right #menu ul{
+    border: 1px solid #ccc;
+    margin-top: -19px;
+}
+
+#main #right #menu ul li{
+    margin: 15px 0px;
+}
+
+#main #right #menu ul li:hover{
+    color: violet;
+}
+
+#main #right #menu ul li i{
+    margin-left: 20px;
+}
+
+#main #right #anhdoc{
+    margin-top: 20px;
+}
+
+#main #right #anhdoc img{
+    width: 100%;
+}
+
+body #footer{
+    height: 70px;
+    background: black;
+    clear: left;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
